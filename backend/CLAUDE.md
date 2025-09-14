@@ -80,3 +80,12 @@ Based on the SDD requirements, the following major dependencies need to be added
 - Jest configured for both unit and e2e testing
 - Source files should follow NestJS conventions (modules, controllers, services)
 - Port defaults to 3000 but respects PORT environment variable
+
+## Coding Principle
+*ALWAYS* use this principle everytime you generate a code:
+1. KISS
+2. DRY
+3. Don't write more than 100 line. When reach more than 100 line, refactor!
+4. Flatten any complex if/else condition
+5. Declarative rather than imperative
+6. Use SOLID principle whenever possible
