@@ -34,7 +34,7 @@ Analyze task dependencies and determine optimal execution order.
 
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
-| `prd_path` | string | `"docs/SSD.md"` | Path to the PRD/SDD document |
+| `prd_path` | string | `"docs/SDD.md"` | Path to the PRD/SDD document |
 | `state_path` | string | `"docs/task_state.json"` | Path to task state JSON file |
 | `output_dir` | string | `"src/generated"` | Directory for generated code |
 | `max_steps` | integer | `7` | Maximum number of steps in task plan |
