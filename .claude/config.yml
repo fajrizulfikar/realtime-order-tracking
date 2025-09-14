@@ -1,4 +1,4 @@
-orkspace:
+workspace:
   backend_dir: "backend"
   frontend_dir: "frontend" 
   docs_dir: "docs"
