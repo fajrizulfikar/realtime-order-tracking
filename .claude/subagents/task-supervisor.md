@@ -34,8 +34,8 @@ Analyze task dependencies and determine optimal execution order.
 
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
-| `prd_path` | string | `"data/prd.md"` | Path to the PRD/SDD document |
-| `state_path` | string | `"data/task_state.json"` | Path to task state JSON file |
+| `prd_path` | string | `"docs/SSD.md"` | Path to the PRD/SDD document |
+| `state_path` | string | `"docs/task_state.json"` | Path to task state JSON file |
 | `output_dir` | string | `"src/generated"` | Directory for generated code |
 | `max_steps` | integer | `7` | Maximum number of steps in task plan |
 | `max_substeps` | integer | `6` | Maximum substeps per step |
@@ -129,7 +129,7 @@ claude-code subagent task-supervisor --prd_path="requirements.md"
 claude-code subagent task-supervisor --prd_path="requirements.md" --mode="plan_only"
 
 # Resume from existing state
-claude-code subagent task-supervisor --state_path="data/existing_state.json" --resume=true
+claude-code subagent task-supervisor --state_path="docs/task_state.json" --resume=true
 
 # Auto-execute with confirmation
 claude-code subagent task-supervisor --prd_path="requirements.md" --auto_execute_commands=true --require_confirmation=true
