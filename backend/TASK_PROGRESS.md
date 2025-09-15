@@ -15,11 +15,11 @@
 ### ☐ Task F1: Project Setup & Configuration (Small)
 **Description:** Initialize NestJS project with TypeScript configuration, ESLint, Prettier, and basic project structure  
 **Acceptance Criteria:**
-- [ ] NestJS project created with CLI
-- [ ] TypeScript configuration optimized for Node.js
-- [ ] ESLint and Prettier configured
-- [ ] Basic folder structure (/src, /test, /config)
-- [ ] Package.json with initial dependencies
+- [x] NestJS project created with CLI
+- [x] TypeScript configuration optimized for Node.js
+- [x] ESLint and Prettier configured
+- [x] Basic folder structure (/src, /test, /config)
+- [x] Package.json with initial dependencies
 
 **Dependencies:** None  
 **Technical Notes:** Use @nestjs/cli, setup tsconfig.json with strict mode
@@ -27,10 +27,10 @@
 ### ☐ Task F2: Environment Configuration (Small)
 **Description:** Setup environment configuration management with validation  
 **Acceptance Criteria:**
-- [ ] ConfigModule configured with validation schemas
-- [ ] Environment variables for DB, Kafka, Redis, JWT defined
-- [ ] Separate configs for dev/staging/prod
-- [ ] Configuration validation on startup
+- [x] ConfigModule configured with validation schemas
+- [x] Environment variables for DB, Kafka, Redis, JWT defined
+- [x] Separate configs for dev/staging/prod
+- [x] Configuration validation on startup
 
 **Dependencies:** F1  
 **Technical Notes:** Use @nestjs/config with Joi validation
