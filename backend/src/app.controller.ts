@@ -18,4 +18,12 @@ export class AppController {
   ): PersonalizedGreetingResponse {
     return this.appService.createPersonalizedGreeting(createGreetingDto);
   }
+
+  @Get('health')
+  getHealthStatus(): { status: string; timestamp: string } {
+    return {
+      status: 'ok',
+      timestamp: new Date().toISOString(),
+    };
+  }
 }

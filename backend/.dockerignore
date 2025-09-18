@@ -1,0 +1,50 @@
+# Dependencies
+node_modules
+npm-debug.log*
+pnpm-debug.log*
+
+# Build outputs
+dist
+coverage
+.nyc_output
+
+# Environment files
+.env*
+!.env.example
+
+# Development files
+.git
+.gitignore
+README.md
+TASK_PROGRESS.md
+CLAUDE.md
+
+# IDE files
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker files
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# Test files
+test
+*.spec.ts
+*.test.ts
+jest.config.js
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
